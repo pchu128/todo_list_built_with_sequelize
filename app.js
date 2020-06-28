@@ -5,7 +5,6 @@ const methodOverride = require('method-override')
 const bcrypt = require('bcryptjs')
 const session = require('express-session')
 const passport = require('passport')
-// 載入設定檔，要寫在 express-session 以後
 const usePassport = require('./config/passport')
 
 // const routes = require('./routes')
